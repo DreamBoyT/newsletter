@@ -1,12 +1,8 @@
 /* Styles for the body */
 body {
-  background-color: linear-gradient(to right, #FFD700, #FFA500);
-  /* font-family: Arial, sans-serif; */
-  /* background: url('w.jpg') no-repeat center center fixed;
-  background-size: cover; */
+  background-color:#FFE833;
 }
 
-/* Styles for the box */
 .box {
   max-width: 400px;
   margin: 50px auto;
@@ -43,7 +39,7 @@ h3 {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: #FF9005;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
@@ -51,15 +47,13 @@ h3 {
 }
 
 .submit-email:hover {
-  background-color: #0056b3;
+  background-color: #FBD808;
 }
 
-/* Hide the "Thank you" message by default */
 .after-submit {
   display: none;
 }
 
-/* Show the "Thank you" message when the form is submitted */
 .subscription.done .before-submit {
   display: none;
 }
@@ -68,7 +62,6 @@ h3 {
   display: inline;
 }
 
-/* Styles for the creator section */
 .creator-section {
   text-align: center;
   margin: 20px auto;
@@ -105,16 +98,13 @@ h3 {
 }
 
 .add-email::placeholder {
-  font-style: italic;
-  font-family: "Download", sans-serif;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px; 
 }
 
 .before-submit, .after-submit {
-  font-style: italic;
-  font-family: "Download", sans-serif;
-}
-
-@font-face {
-  font-family: "Download";
-  src: url("path-to-your-font-file/Download.ttf") format("truetype"); 
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px; 
 }
